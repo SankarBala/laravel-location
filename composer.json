@@ -12,7 +12,6 @@
 	"autoload": {
 		"psr-4": {
 			"Itparlour\\Location\\": "src/",
-			"Itparlour\\Location\\Seeds\\": "src/database/seeds",
 		}
 	},
 
