@@ -1,0 +1,47 @@
+{
+	"name": "itparlour/laravel-location",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "IT PARLOUR",
+			"email": "itparlour360@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Itparlour\\Location\\": "src/"
+		}
+	},
+
+	"autoload-dev": {
+		"psr-4": {
+			"Itparlour\\Location\\Test\\": "tests"
+		}
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit tests"
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Itparlour\\Location\\LocationServiceProvider"
+			]
+		}
+	},
+	"require": {
+		"illuminate/support": "^5.0 || ^6.0 || ^7.0 || ^8.0"
+	},
+	"require-dev": {
+		"mockery/mockery": "^1.0",
+		"orchestra/testbench": "3.8.*|4.*",
+		"phpunit/phpunit": "^8.0",
+		"illuminate/contracts": "^5.8.15|^6.0",
+		"illuminate/filesystem": "^5.8.15|^6.0",
+		"illuminate/support": "^5.8.15|^6.0",
+		"illuminate/database": "^5.8.15|^6.0",
+		"phpunit/php-code-coverage": "^7.0@dev"
+	},
+	"description": ""
+}
