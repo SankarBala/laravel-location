@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichtrojan\Location\Http\Controllers;
+namespace Itparlour\Location\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
