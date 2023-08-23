@@ -47,7 +47,7 @@ php artisan migrate
 Finally, run the Package seeders
 
 ```shell
-php artisan db:seed --class=Itparlour\\Location\\Seeds\\LocationDatabaseSeeder
+php artisan db:seed --class=Itparlour\Location\Seeds\LocationDatabaseSeeder
 ```
 
 ## Usage 🧨

@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Route;
+
 Route::group(['prefix' => Config::get('location.routes.prefix'), 'namespace' => 'Itparlour\Location\Http\Controllers', 'middleware' => [Config::get('location.routes.middleware')]], function () {
     # Get all Countries
     Route::get('countries', 'LocationController@getCountries');
